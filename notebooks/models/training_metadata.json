@@ -1,0 +1,12 @@
+{
+  "training_date": "2026-09-16T13:05:48.502867",
+  "best_model": "XGBoost",
+  "best_pr_auc": 0.5624186679567866,
+  "n_features": 139,
+  "train_size": 406772,
+  "val_size": 87165,
+  "test_size": 87166,
+  "failure_rate_train": 0.005061803663969005,
+  "failure_rate_val": 0.00466930534044628,
+  "failure_rate_test": 0.0036482114585962414
+}
