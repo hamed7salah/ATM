@@ -1,0 +1,69 @@
+{
+    "num_atms": 500,
+    "duration_days": 90,
+    "observation_interval_minutes": 5,
+    "random_seed": 42,
+    "atm_age_range": [
+        0,
+        10
+    ],
+    "indoor_ratio": 0.6,
+    "failure_rates": {
+        "network": 2.0,
+        "power": 1.5,
+        "thermal": 1.0,
+        "dispenser": 3.0,
+        "card_reader": 2.5,
+        "printer": 2.0,
+        "software": 1.5,
+        "hardware": 1.0
+    },
+    "sensor_noise": {
+        "temperature_std": 1.5,
+        "voltage_std": 2.0,
+        "signal_strength_std": 3.0,
+        "latency_std": 5.0,
+        "missing_rate": 0.02
+    },
+    "environment": {
+        "ambient_temp_mean": 28.0,
+        "ambient_temp_std": 5.0,
+        "ambient_temp_min": 15.0,
+        "ambient_temp_max": 45.0,
+        "daily_temp_amplitude": 8.0,
+        "voltage_nominal": 220.0,
+        "voltage_variation_std": 5.0,
+        "power_spike_rate": 0.1,
+        "network_signal_mean": -65.0,
+        "network_signal_std": 10.0
+    },
+    "maintenance": {
+        "flm_repair_time_mean": 2.0,
+        "flm_repair_time_std": 0.5,
+        "slm_repair_time_mean": 8.0,
+        "slm_repair_time_std": 2.0,
+        "preventive_maintenance_interval_days": 90.0,
+        "preventive_maintenance_duration_hours": 1.5
+    },
+    "daily_transaction_mean": 150.0,
+    "daily_transaction_std": 50.0,
+    "peak_hours": [
+        10,
+        11,
+        12,
+        13,
+        14,
+        17,
+        18,
+        19
+    ],
+    "healthy_to_degrading_prob": 0.001,
+    "degrading_to_warning_prob": 0.05,
+    "degrading_to_healthy_prob": 0.02,
+    "warning_to_failed_prob": 0.3,
+    "warning_to_degrading_prob": 0.1,
+    "sudden_failure_prob": 0.2,
+    "output_format": "csv",
+    "output_path": "./data/output",
+    "compress": true
+}
