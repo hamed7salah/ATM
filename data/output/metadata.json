@@ -1,0 +1,16 @@
+{
+  "generation_date": "2026-09-16T11:00:21.358502",
+  "config": {
+    "num_atms": 175,
+    "duration_days": 12,
+    "observation_interval_minutes": 5,
+    "random_seed": 42
+  },
+  "statistics": {
+    "total_observations": 604800,
+    "total_failures": 464,
+    "total_maintenance_events": 457,
+    "failure_rate_per_atm_year": 80.64761904761906,
+    "operational_percentage": 96.08184523809524
+  }
+}

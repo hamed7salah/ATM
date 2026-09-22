@@ -1,0 +1,465 @@
+incident_id,atm_id,failure_type,failure_subtype,start_time,end_time,severity,maintenance_level,repair_duration_hours,root_cause,was_sudden
+INC_ATM_0128_20260101031000,ATM_0128,printer,cutter_failure,2026-01-01 03:10:00,2026-01-01 06:10:00,low,FLM,2.6609569479586552,Printer mechanism failure,False
+INC_ATM_0069_20260101040500,ATM_0069,card_reader,reader_malfunction,2026-01-01 04:05:00,2026-01-01 06:10:00,medium,FLM,1.871600318102357,Card reader sensor malfunction,False
+INC_ATM_0092_20260101041000,ATM_0092,printer,cutter_failure,2026-01-01 04:10:00,2026-01-01 07:10:00,low,FLM,2.5924034822579363,Printer mechanism failure,False
+INC_ATM_0025_20260101043000,ATM_0025,dispenser,motor_failure,2026-01-01 04:30:00,2026-01-01 06:55:00,medium,FLM,2.1572383822156165,Mechanical wear in dispenser,False
+INC_ATM_0170_20260101045500,ATM_0170,dispenser,pick_failure,2026-01-01 04:55:00,2026-01-01 07:55:00,high,FLM,2.7374533070880056,Mechanical wear in dispenser,False
+INC_ATM_0156_20260101052500,ATM_0156,thermal,cooling_system_failure,2026-01-01 05:25:00,2026-01-01 06:55:00,low,FLM,1.1202688880257687,Thermal management failure,False
+INC_ATM_0003_20260101054500,ATM_0003,dispenser,pick_failure,2026-01-01 05:45:00,2026-01-01 07:55:00,critical,FLM,1.989462508048864,Mechanical wear in dispenser,False
+INC_ATM_0148_20260101054500,ATM_0148,software,os_error,2026-01-01 05:45:00,2026-01-01 12:50:00,medium,SLM,6.754281984057665,Software exception,False
+INC_ATM_0159_20260101060500,ATM_0159,card_reader,reader_malfunction,2026-01-01 06:05:00,2026-01-01 13:05:00,low,SLM,6.7456141310348645,Card reader sensor malfunction,False
+INC_ATM_0101_20260101062000,ATM_0101,printer,print_head_failure,2026-01-01 06:20:00,2026-01-01 14:30:00,medium,SLM,7.974468367438838,Printer mechanism failure,False
+INC_ATM_0045_20260101063000,ATM_0045,card_reader,reader_malfunction,2026-01-01 06:30:00,2026-01-01 08:10:00,low,FLM,1.3955128667725365,Card reader sensor malfunction,False
+INC_ATM_0016_20260101072500,ATM_0016,network,timeout,2026-01-01 07:25:00,2026-01-01 09:35:00,medium,FLM,1.8206374607828752,Network connectivity issue,False
+INC_ATM_0008_20260101075000,ATM_0008,card_reader,card_jam,2026-01-01 07:50:00,2026-01-01 15:05:00,high,SLM,6.750817817589722,Card reader sensor malfunction,False
+INC_ATM_0039_20260101081000,ATM_0039,card_reader,read_error,2026-01-01 08:10:00,2026-01-01 10:50:00,high,FLM,2.2512026094326827,Card reader sensor malfunction,False
+INC_ATM_0127_20260101085000,ATM_0127,printer,cutter_failure,2026-01-01 08:50:00,2026-01-01 11:35:00,low,FLM,2.407949905389452,Printer mechanism failure,False
+INC_ATM_0072_20260101091500,ATM_0072,thermal,overheating,2026-01-01 09:15:00,2026-01-01 12:00:00,low,FLM,2.3716348406332646,Thermal management failure,False
+INC_ATM_0061_20260101092000,ATM_0061,dispenser,transport_error,2026-01-01 09:20:00,2026-01-01 12:05:00,high,FLM,2.4533783601346957,Mechanical wear in dispenser,False
+INC_ATM_0083_20260101114500,ATM_0083,printer,cutter_failure,2026-01-01 11:45:00,2026-01-01 13:40:00,medium,FLM,1.5651661178811678,Printer mechanism failure,True
+INC_ATM_0074_20260101121500,ATM_0074,card_reader,card_jam,2026-01-01 12:15:00,2026-01-01 21:55:00,medium,SLM,9.498259611539929,Card reader sensor malfunction,False
+INC_ATM_0018_20260101123500,ATM_0018,printer,cutter_failure,2026-01-01 12:35:00,2026-01-01 16:55:00,medium,SLM,4.10578227185388,Printer mechanism failure,False
+INC_ATM_0058_20260101131000,ATM_0058,printer,paper_jam,2026-01-01 13:10:00,2026-01-01 20:20:00,low,SLM,6.820565826710539,Printer mechanism failure,True
+INC_ATM_0046_20260101134000,ATM_0046,network,switch_failure,2026-01-01 13:40:00,2026-01-01 16:15:00,high,FLM,2.29719411195235,Network connectivity issue,False
+INC_ATM_0142_20260101134500,ATM_0142,dispenser,transport_error,2026-01-01 13:45:00,2026-01-01 16:20:00,medium,FLM,2.095193871935094,Mechanical wear in dispenser,False
+INC_ATM_0130_20260101140000,ATM_0130,printer,cutter_failure,2026-01-01 14:00:00,2026-01-01 16:15:00,medium,FLM,2.050611564282231,Printer mechanism failure,False
+INC_ATM_0006_20260101144000,ATM_0006,software,application_crash,2026-01-01 14:40:00,2026-01-01 18:00:00,critical,SLM,3.142487012471891,Software exception,False
+INC_ATM_0166_20260101145000,ATM_0166,software,os_error,2026-01-01 14:50:00,2026-01-01 18:20:00,high,FLM,3.0078806696783094,Software exception,False
+INC_ATM_0089_20260101155500,ATM_0089,dispenser,jam,2026-01-01 15:55:00,2026-01-01 18:15:00,low,FLM,1.9825934597622485,Mechanical wear in dispenser,False
+INC_ATM_0095_20260101162500,ATM_0095,printer,paper_jam,2026-01-01 16:25:00,2026-01-01 18:10:00,low,FLM,1.4879862022989667,Printer mechanism failure,False
+INC_ATM_0064_20260101164000,ATM_0064,thermal,fan_failure,2026-01-01 16:40:00,2026-01-01 19:05:00,critical,FLM,2.141854122295767,Thermal management failure,False
+INC_ATM_0051_20260101165500,ATM_0051,printer,paper_jam,2026-01-01 16:55:00,2026-01-01 22:50:00,high,SLM,5.500480823432553,Printer mechanism failure,False
+INC_ATM_0033_20260101184000,ATM_0033,card_reader,card_jam,2026-01-01 18:40:00,2026-01-01 21:25:00,low,FLM,2.446781443199628,Card reader sensor malfunction,False
+INC_ATM_0082_20260101212500,ATM_0082,card_reader,read_error,2026-01-01 21:25:00,2026-01-01 23:20:00,medium,FLM,1.6557257337682227,Card reader sensor malfunction,False
+INC_ATM_0028_20260101221000,ATM_0028,dispenser,motor_failure,2026-01-01 22:10:00,2026-01-02 00:40:00,low,FLM,2.0098672446202874,Mechanical wear in dispenser,False
+INC_ATM_0129_20260101222000,ATM_0129,card_reader,read_error,2026-01-01 22:20:00,2026-01-02 00:25:00,medium,FLM,1.8380767924171035,Card reader sensor malfunction,False
+INC_ATM_0147_20260101225000,ATM_0147,printer,print_head_failure,2026-01-01 22:50:00,2026-01-02 11:25:00,critical,SLM,12.21296995214211,Printer mechanism failure,False
+INC_ATM_0160_20260101225000,ATM_0160,printer,print_head_failure,2026-01-01 22:50:00,2026-01-02 00:35:00,medium,FLM,1.430731405105006,Printer mechanism failure,False
+INC_ATM_0022_20260101231500,ATM_0022,network,dns_failure,2026-01-01 23:15:00,2026-01-02 05:40:00,critical,SLM,6.125546718998509,Network connectivity issue,False
+INC_ATM_0116_20260101231500,ATM_0116,dispenser,motor_failure,2026-01-01 23:15:00,2026-01-02 11:25:00,high,SLM,11.99502661303719,Mechanical wear in dispenser,False
+INC_ATM_0073_20260101234500,ATM_0073,card_reader,card_jam,2026-01-01 23:45:00,2026-01-02 01:05:00,medium,FLM,0.982373203278889,Card reader sensor malfunction,False
+INC_ATM_0092_20260102002500,ATM_0092,dispenser,pick_failure,2026-01-02 00:25:00,2026-01-02 08:35:00,critical,SLM,7.929392782587785,Mechanical wear in dispenser,False
+INC_ATM_0047_20260102004000,ATM_0047,thermal,fan_failure,2026-01-02 00:40:00,2026-01-02 02:50:00,high,FLM,1.8585859115420107,Thermal management failure,False
+INC_ATM_0004_20260102014000,ATM_0004,dispenser,jam,2026-01-02 01:40:00,2026-01-02 11:15:00,medium,SLM,9.143538875867087,Mechanical wear in dispenser,False
+INC_ATM_0112_20260102024000,ATM_0112,software,application_crash,2026-01-02 02:40:00,2026-01-02 11:20:00,medium,SLM,8.183743986077229,Software exception,False
+INC_ATM_0029_20260102030500,ATM_0029,dispenser,pick_failure,2026-01-02 03:05:00,2026-01-02 05:50:00,low,FLM,2.4563812729897196,Mechanical wear in dispenser,False
+INC_ATM_0155_20260102031500,ATM_0155,card_reader,reader_malfunction,2026-01-02 03:15:00,2026-01-02 09:40:00,critical,SLM,6.061189863484715,Card reader sensor malfunction,False
+INC_ATM_0030_20260102032000,ATM_0030,printer,cutter_failure,2026-01-02 03:20:00,2026-01-02 09:55:00,medium,SLM,6.189113784076741,Printer mechanism failure,False
+INC_ATM_0128_20260102032500,ATM_0128,network,dns_failure,2026-01-02 03:25:00,2026-01-02 11:25:00,high,SLM,7.606633408151452,Network connectivity issue,False
+INC_ATM_0118_20260102033000,ATM_0118,software,driver_failure,2026-01-02 03:30:00,2026-01-02 07:55:00,low,SLM,4.137507622910064,Software exception,False
+INC_ATM_0005_20260102040500,ATM_0005,software,driver_failure,2026-01-02 04:05:00,2026-01-02 11:30:00,low,SLM,7.072432162815522,Software exception,False
+INC_ATM_0065_20260102043000,ATM_0065,printer,paper_jam,2026-01-02 04:30:00,2026-01-02 06:30:00,critical,FLM,1.6197202555933585,Printer mechanism failure,False
+INC_ATM_0167_20260102051000,ATM_0167,card_reader,card_jam,2026-01-02 05:10:00,2026-01-02 07:25:00,low,FLM,1.9539399979179517,Card reader sensor malfunction,False
+INC_ATM_0156_20260102075000,ATM_0156,dispenser,transport_error,2026-01-02 07:50:00,2026-01-02 15:40:00,medium,SLM,7.346336904459623,Mechanical wear in dispenser,False
+INC_ATM_0054_20260102081500,ATM_0054,power,ups_failure,2026-01-02 08:15:00,2026-01-02 15:55:00,low,SLM,7.369351566104662,Power supply instability,False
+INC_ATM_0113_20260102095500,ATM_0113,card_reader,card_jam,2026-01-02 09:55:00,2026-01-02 12:30:00,medium,FLM,2.3572282415952777,Card reader sensor malfunction,False
+INC_ATM_0174_20260102111500,ATM_0174,printer,paper_jam,2026-01-02 11:15:00,2026-01-02 12:55:00,medium,FLM,1.3007521421267383,Printer mechanism failure,False
+INC_ATM_0104_20260102120500,ATM_0104,dispenser,jam,2026-01-02 12:05:00,2026-01-02 17:25:00,high,SLM,4.940006893494775,Mechanical wear in dispenser,False
+INC_ATM_0010_20260102123000,ATM_0010,hardware,memory_error,2026-01-02 12:30:00,2026-01-02 19:45:00,medium,SLM,7.0064279017132955,Hardware component failure,False
+INC_ATM_0007_20260102125000,ATM_0007,card_reader,read_error,2026-01-02 12:50:00,2026-01-02 15:05:00,medium,FLM,1.8834895052779896,Card reader sensor malfunction,False
+INC_ATM_0112_20260102125500,ATM_0112,hardware,memory_error,2026-01-02 12:55:00,2026-01-02 14:40:00,medium,FLM,1.5099869988596353,Hardware component failure,False
+INC_ATM_0098_20260102130500,ATM_0098,dispenser,motor_failure,2026-01-02 13:05:00,2026-01-02 15:20:00,low,FLM,1.791000026275135,Mechanical wear in dispenser,False
+INC_ATM_0060_20260102131000,ATM_0060,card_reader,card_jam,2026-01-02 13:10:00,2026-01-02 21:20:00,high,SLM,7.911782271627485,Card reader sensor malfunction,False
+INC_ATM_0037_20260102134500,ATM_0037,dispenser,transport_error,2026-01-02 13:45:00,2026-01-02 16:10:00,low,FLM,2.1559688995077817,Mechanical wear in dispenser,False
+INC_ATM_0046_20260102142000,ATM_0046,printer,print_head_failure,2026-01-02 14:20:00,2026-01-03 02:20:00,low,SLM,11.70495771630554,Printer mechanism failure,False
+INC_ATM_0165_20260102142000,ATM_0165,card_reader,card_jam,2026-01-02 14:20:00,2026-01-03 00:20:00,high,SLM,9.69638908971904,Card reader sensor malfunction,False
+INC_ATM_0083_20260102160000,ATM_0083,power,power_supply_failure,2026-01-02 16:00:00,2026-01-02 18:00:00,medium,FLM,1.714270329987235,Power supply instability,False
+INC_ATM_0121_20260102163000,ATM_0121,card_reader,card_jam,2026-01-02 16:30:00,2026-01-03 02:25:00,medium,SLM,9.706439076568417,Card reader sensor malfunction,False
+INC_ATM_0116_20260102170000,ATM_0116,software,driver_failure,2026-01-02 17:00:00,2026-01-02 19:45:00,low,FLM,2.5273824186220213,Software exception,False
+INC_ATM_0013_20260102174500,ATM_0013,hardware,memory_error,2026-01-02 17:45:00,2026-01-02 23:55:00,medium,SLM,5.702323867435243,Hardware component failure,False
+INC_ATM_0139_20260102175500,ATM_0139,software,application_crash,2026-01-02 17:55:00,2026-01-02 20:00:00,medium,FLM,1.6438257258437847,Software exception,False
+INC_ATM_0061_20260102180500,ATM_0061,hardware,disk_failure,2026-01-02 18:05:00,2026-01-02 20:25:00,medium,FLM,2.161433788632878,Hardware component failure,False
+INC_ATM_0029_20260102183000,ATM_0029,network,dns_failure,2026-01-02 18:30:00,2026-01-02 20:40:00,medium,FLM,1.8305696525007702,Network connectivity issue,False
+INC_ATM_0045_20260102194000,ATM_0045,power,power_supply_failure,2026-01-02 19:40:00,2026-01-02 22:25:00,low,FLM,2.2793938157787883,Power supply instability,False
+INC_ATM_0155_20260102203000,ATM_0155,card_reader,card_jam,2026-01-02 20:30:00,2026-01-02 23:30:00,medium,FLM,2.5294460926660585,Card reader sensor malfunction,False
+INC_ATM_0082_20260102221000,ATM_0082,card_reader,card_jam,2026-01-02 22:10:00,2026-01-03 04:20:00,high,SLM,5.8304624574938355,Card reader sensor malfunction,False
+INC_ATM_0035_20260102222000,ATM_0035,thermal,cooling_system_failure,2026-01-02 22:20:00,2026-01-03 00:15:00,medium,FLM,1.3792247509795037,Thermal management failure,False
+INC_ATM_0014_20260102223000,ATM_0014,software,application_crash,2026-01-02 22:30:00,2026-01-03 07:40:00,high,SLM,8.721121289476088,Software exception,False
+INC_ATM_0150_20260102224000,ATM_0150,network,dns_failure,2026-01-02 22:40:00,2026-01-03 00:45:00,medium,FLM,1.7987083503992114,Network connectivity issue,False
+INC_ATM_0058_20260102231000,ATM_0058,software,driver_failure,2026-01-02 23:10:00,2026-01-03 09:00:00,medium,SLM,9.663436947763035,Software exception,True
+INC_ATM_0110_20260102233000,ATM_0110,card_reader,card_jam,2026-01-02 23:30:00,2026-01-03 06:20:00,low,SLM,6.546859511991114,Card reader sensor malfunction,False
+INC_ATM_0151_20260103004500,ATM_0151,printer,paper_jam,2026-01-03 00:45:00,2026-01-03 02:35:00,low,FLM,1.581568446792056,Printer mechanism failure,False
+INC_ATM_0080_20260103012500,ATM_0080,software,os_error,2026-01-03 01:25:00,2026-01-03 03:25:00,low,FLM,1.802467850673409,Software exception,False
+INC_ATM_0092_20260103021500,ATM_0092,power,power_supply_failure,2026-01-03 02:15:00,2026-01-03 04:30:00,low,FLM,1.9188924330498338,Power supply instability,False
+INC_ATM_0128_20260103024000,ATM_0128,thermal,overheating,2026-01-03 02:40:00,2026-01-03 04:20:00,medium,FLM,1.2026916945639696,Thermal management failure,False
+INC_ATM_0162_20260103025500,ATM_0162,network,timeout,2026-01-03 02:55:00,2026-01-03 05:40:00,high,FLM,2.2514159913793153,Network connectivity issue,False
+INC_ATM_0032_20260103032500,ATM_0032,dispenser,pick_failure,2026-01-03 03:25:00,2026-01-03 11:40:00,critical,SLM,7.891071065258166,Mechanical wear in dispenser,False
+INC_ATM_0171_20260103041000,ATM_0171,card_reader,card_jam,2026-01-03 04:10:00,2026-01-03 05:50:00,medium,FLM,1.4021176399327464,Card reader sensor malfunction,False
+INC_ATM_0043_20260103041500,ATM_0043,hardware,controller_failure,2026-01-03 04:15:00,2026-01-03 06:00:00,low,FLM,1.4366314335847812,Hardware component failure,False
+INC_ATM_0034_20260103043000,ATM_0034,printer,paper_jam,2026-01-03 04:30:00,2026-01-03 10:55:00,high,SLM,6.0841892641999,Printer mechanism failure,False
+INC_ATM_0131_20260103043000,ATM_0131,dispenser,pick_failure,2026-01-03 04:30:00,2026-01-03 10:35:00,low,SLM,5.736647901112894,Mechanical wear in dispenser,False
+INC_ATM_0141_20260103053500,ATM_0141,dispenser,motor_failure,2026-01-03 05:35:00,2026-01-03 07:50:00,critical,FLM,1.8335678785245806,Mechanical wear in dispenser,False
+INC_ATM_0083_20260103064000,ATM_0083,card_reader,reader_malfunction,2026-01-03 06:40:00,2026-01-03 09:05:00,low,FLM,2.0696597084977926,Card reader sensor malfunction,False
+INC_ATM_0037_20260103071000,ATM_0037,dispenser,transport_error,2026-01-03 07:10:00,2026-01-03 08:30:00,low,FLM,1.146502523900006,Mechanical wear in dispenser,False
+INC_ATM_0164_20260103080000,ATM_0164,printer,print_head_failure,2026-01-03 08:00:00,2026-01-03 09:05:00,high,FLM,0.8261181817308312,Printer mechanism failure,False
+INC_ATM_0134_20260103082000,ATM_0134,dispenser,transport_error,2026-01-03 08:20:00,2026-01-03 10:50:00,medium,FLM,2.221682458559335,Mechanical wear in dispenser,False
+INC_ATM_0046_20260103083500,ATM_0046,software,os_error,2026-01-03 08:35:00,2026-01-03 11:30:00,critical,FLM,2.5465107650020813,Software exception,False
+INC_ATM_0096_20260103092000,ATM_0096,power,power_supply_failure,2026-01-03 09:20:00,2026-01-03 12:50:00,low,FLM,3.173874105329486,Power supply instability,True
+INC_ATM_0016_20260103095500,ATM_0016,network,connectivity_loss,2026-01-03 09:55:00,2026-01-03 12:10:00,medium,FLM,1.8255798082276458,Network connectivity issue,False
+INC_ATM_0130_20260103102500,ATM_0130,printer,paper_jam,2026-01-03 10:25:00,2026-01-03 12:55:00,high,FLM,2.147631915629784,Printer mechanism failure,False
+INC_ATM_0076_20260103103000,ATM_0076,printer,print_head_failure,2026-01-03 10:30:00,2026-01-03 13:35:00,medium,FLM,2.6638794116062003,Printer mechanism failure,False
+INC_ATM_0115_20260103110000,ATM_0115,dispenser,transport_error,2026-01-03 11:00:00,2026-01-03 13:40:00,critical,FLM,2.290011014802691,Mechanical wear in dispenser,False
+INC_ATM_0123_20260103115000,ATM_0123,card_reader,reader_malfunction,2026-01-03 11:50:00,2026-01-03 13:15:00,medium,FLM,1.1975793086747688,Card reader sensor malfunction,False
+INC_ATM_0165_20260103123000,ATM_0165,hardware,disk_failure,2026-01-03 12:30:00,2026-01-03 14:50:00,high,FLM,2.1205668561394218,Hardware component failure,False
+INC_ATM_0086_20260103131500,ATM_0086,dispenser,jam,2026-01-03 13:15:00,2026-01-03 14:40:00,critical,FLM,1.2099634557123244,Mechanical wear in dispenser,False
+INC_ATM_0130_20260103142500,ATM_0130,network,switch_failure,2026-01-03 14:25:00,2026-01-03 15:55:00,critical,FLM,1.2224126154405415,Network connectivity issue,False
+INC_ATM_0062_20260103145000,ATM_0062,printer,cutter_failure,2026-01-03 14:50:00,2026-01-03 16:30:00,critical,FLM,1.4318739989312017,Printer mechanism failure,False
+INC_ATM_0057_20260103145500,ATM_0057,dispenser,jam,2026-01-03 14:55:00,2026-01-03 21:00:00,low,SLM,5.863147497595688,Mechanical wear in dispenser,False
+INC_ATM_0018_20260103162000,ATM_0018,network,timeout,2026-01-03 16:20:00,2026-01-03 19:00:00,high,FLM,2.4358739304079653,Network connectivity issue,False
+INC_ATM_0153_20260103172000,ATM_0153,hardware,disk_failure,2026-01-03 17:20:00,2026-01-03 19:10:00,medium,FLM,1.257017609062312,Hardware component failure,False
+INC_ATM_0078_20260103192500,ATM_0078,card_reader,reader_malfunction,2026-01-03 19:25:00,2026-01-03 22:35:00,medium,FLM,2.9262186994355193,Card reader sensor malfunction,False
+INC_ATM_0125_20260103192500,ATM_0125,printer,paper_jam,2026-01-03 19:25:00,2026-01-03 21:25:00,medium,FLM,1.7338506351543557,Printer mechanism failure,False
+INC_ATM_0044_20260103193000,ATM_0044,printer,paper_jam,2026-01-03 19:30:00,2026-01-03 21:10:00,medium,FLM,1.3741630491563763,Printer mechanism failure,False
+INC_ATM_0114_20260103201500,ATM_0114,network,switch_failure,2026-01-03 20:15:00,2026-01-03 22:55:00,critical,FLM,2.3078450958762784,Network connectivity issue,False
+INC_ATM_0025_20260103213000,ATM_0025,dispenser,jam,2026-01-03 21:30:00,2026-01-04 00:35:00,low,FLM,2.615815167011715,Mechanical wear in dispenser,False
+INC_ATM_0159_20260103214000,ATM_0159,printer,cutter_failure,2026-01-03 21:40:00,2026-01-04 00:30:00,medium,FLM,2.531968758429414,Printer mechanism failure,False
+INC_ATM_0010_20260103220500,ATM_0010,software,application_crash,2026-01-03 22:05:00,2026-01-03 23:50:00,medium,FLM,1.399606101402586,Software exception,False
+INC_ATM_0040_20260103221500,ATM_0040,printer,paper_jam,2026-01-03 22:15:00,2026-01-04 01:15:00,high,FLM,2.5698151393970505,Printer mechanism failure,False
+INC_ATM_0061_20260103221500,ATM_0061,dispenser,jam,2026-01-03 22:15:00,2026-01-04 00:10:00,medium,FLM,1.5967431261375125,Mechanical wear in dispenser,False
+INC_ATM_0080_20260103223000,ATM_0080,printer,print_head_failure,2026-01-03 22:30:00,2026-01-04 00:40:00,medium,FLM,1.673527750484872,Printer mechanism failure,False
+INC_ATM_0063_20260103225000,ATM_0063,dispenser,jam,2026-01-03 22:50:00,2026-01-04 05:00:00,high,SLM,5.764940327451956,Mechanical wear in dispenser,False
+INC_ATM_0031_20260104001000,ATM_0031,power,power_outage,2026-01-04 00:10:00,2026-01-04 02:45:00,medium,FLM,2.1121851766151387,Power supply instability,False
+INC_ATM_0047_20260104001000,ATM_0047,power,power_supply_failure,2026-01-04 00:10:00,2026-01-04 11:00:00,high,SLM,10.5049938242444,Power supply instability,False
+INC_ATM_0155_20260104003000,ATM_0155,printer,paper_jam,2026-01-04 00:30:00,2026-01-04 02:55:00,medium,FLM,2.1160124878340363,Printer mechanism failure,False
+INC_ATM_0134_20260104012500,ATM_0134,card_reader,card_jam,2026-01-04 01:25:00,2026-01-04 04:45:00,medium,FLM,3.013593285630422,Card reader sensor malfunction,False
+INC_ATM_0167_20260104013000,ATM_0167,network,connectivity_loss,2026-01-04 01:30:00,2026-01-04 04:00:00,high,FLM,1.970835766717923,Network connectivity issue,False
+INC_ATM_0038_20260104013500,ATM_0038,dispenser,motor_failure,2026-01-04 01:35:00,2026-01-04 03:55:00,high,FLM,2.0981346265430236,Mechanical wear in dispenser,False
+INC_ATM_0124_20260104015000,ATM_0124,card_reader,reader_malfunction,2026-01-04 01:50:00,2026-01-04 03:35:00,low,FLM,1.471732725202613,Card reader sensor malfunction,False
+INC_ATM_0171_20260104050000,ATM_0171,software,os_error,2026-01-04 05:00:00,2026-01-04 07:30:00,low,FLM,2.3319627858154837,Software exception,False
+INC_ATM_0023_20260104054000,ATM_0023,thermal,fan_failure,2026-01-04 05:40:00,2026-01-04 07:35:00,medium,FLM,1.5567111521331505,Thermal management failure,False
+INC_ATM_0141_20260104054500,ATM_0141,dispenser,pick_failure,2026-01-04 05:45:00,2026-01-04 13:45:00,medium,SLM,7.755625824377536,Mechanical wear in dispenser,False
+INC_ATM_0172_20260104080000,ATM_0172,printer,cutter_failure,2026-01-04 08:00:00,2026-01-04 09:45:00,low,FLM,1.4925225969206024,Printer mechanism failure,False
+INC_ATM_0004_20260104080500,ATM_0004,printer,cutter_failure,2026-01-04 08:05:00,2026-01-04 10:00:00,high,FLM,1.47911373252112,Printer mechanism failure,False
+INC_ATM_0085_20260104083000,ATM_0085,dispenser,jam,2026-01-04 08:30:00,2026-01-04 15:20:00,medium,SLM,6.440874656699584,Mechanical wear in dispenser,False
+INC_ATM_0096_20260104090000,ATM_0096,network,connectivity_loss,2026-01-04 09:00:00,2026-01-04 11:40:00,low,FLM,2.3798501142294963,Network connectivity issue,False
+INC_ATM_0104_20260104094000,ATM_0104,hardware,disk_failure,2026-01-04 09:40:00,2026-01-04 20:45:00,medium,SLM,10.870457382450551,Hardware component failure,False
+INC_ATM_0155_20260104094500,ATM_0155,dispenser,pick_failure,2026-01-04 09:45:00,2026-01-04 19:55:00,low,SLM,9.670994565076972,Mechanical wear in dispenser,False
+INC_ATM_0125_20260104095500,ATM_0125,thermal,fan_failure,2026-01-04 09:55:00,2026-01-04 12:40:00,medium,FLM,2.257121666654218,Thermal management failure,False
+INC_ATM_0123_20260104103500,ATM_0123,dispenser,transport_error,2026-01-04 10:35:00,2026-01-04 13:05:00,high,FLM,2.015267045808929,Mechanical wear in dispenser,False
+INC_ATM_0021_20260104110000,ATM_0021,network,timeout,2026-01-04 11:00:00,2026-01-04 13:40:00,critical,FLM,2.1838806086845572,Network connectivity issue,False
+INC_ATM_0109_20260104110500,ATM_0109,thermal,overheating,2026-01-04 11:05:00,2026-01-04 13:50:00,critical,FLM,2.3527324348561507,Thermal management failure,False
+INC_ATM_0039_20260104112000,ATM_0039,thermal,overheating,2026-01-04 11:20:00,2026-01-04 13:10:00,low,FLM,1.4217422181467463,Thermal management failure,False
+INC_ATM_0082_20260104112500,ATM_0082,dispenser,jam,2026-01-04 11:25:00,2026-01-04 23:15:00,high,SLM,11.440399389693352,Mechanical wear in dispenser,False
+INC_ATM_0161_20260104120000,ATM_0161,dispenser,jam,2026-01-04 12:00:00,2026-01-04 21:50:00,low,SLM,9.361741632252748,Mechanical wear in dispenser,False
+INC_ATM_0147_20260104130500,ATM_0147,dispenser,pick_failure,2026-01-04 13:05:00,2026-01-04 15:05:00,low,FLM,1.6934740887007385,Mechanical wear in dispenser,False
+INC_ATM_0059_20260104134000,ATM_0059,printer,cutter_failure,2026-01-04 13:40:00,2026-01-04 20:25:00,low,SLM,6.462987771107832,Printer mechanism failure,True
+INC_ATM_0005_20260104141000,ATM_0005,card_reader,card_jam,2026-01-04 14:10:00,2026-01-05 02:40:00,medium,SLM,12.154275972050335,Card reader sensor malfunction,False
+INC_ATM_0058_20260104150000,ATM_0058,thermal,cooling_system_failure,2026-01-04 15:00:00,2026-01-04 18:30:00,low,FLM,3.0920464849394786,Thermal management failure,False
+INC_ATM_0156_20260104152500,ATM_0156,dispenser,motor_failure,2026-01-04 15:25:00,2026-01-04 17:25:00,low,FLM,1.7095084947764712,Mechanical wear in dispenser,False
+INC_ATM_0057_20260104164000,ATM_0057,software,os_error,2026-01-04 16:40:00,2026-01-05 00:10:00,low,SLM,7.172184788981734,Software exception,False
+INC_ATM_0042_20260104164500,ATM_0042,dispenser,jam,2026-01-04 16:45:00,2026-01-04 19:25:00,medium,FLM,2.1670641042816174,Mechanical wear in dispenser,False
+INC_ATM_0054_20260104184000,ATM_0054,printer,paper_jam,2026-01-04 18:40:00,2026-01-04 23:40:00,medium,SLM,4.637797834385605,Printer mechanism failure,False
+INC_ATM_0140_20260104184500,ATM_0140,thermal,cooling_system_failure,2026-01-04 18:45:00,2026-01-04 20:00:00,low,FLM,1.0104618448494085,Thermal management failure,False
+INC_ATM_0007_20260104190000,ATM_0007,network,connectivity_loss,2026-01-04 19:00:00,2026-01-04 21:45:00,low,FLM,2.4972989493807076,Network connectivity issue,False
+INC_ATM_0021_20260104201000,ATM_0021,dispenser,transport_error,2026-01-04 20:10:00,2026-01-04 23:50:00,low,FLM,3.356262205628519,Mechanical wear in dispenser,False
+INC_ATM_0096_20260104203000,ATM_0096,software,driver_failure,2026-01-04 20:30:00,2026-01-04 22:20:00,medium,FLM,1.4159233116976466,Software exception,False
+INC_ATM_0107_20260104204500,ATM_0107,printer,paper_jam,2026-01-04 20:45:00,2026-01-05 07:10:00,low,SLM,10.147176225634087,Printer mechanism failure,False
+INC_ATM_0132_20260104214500,ATM_0132,printer,paper_jam,2026-01-04 21:45:00,2026-01-05 00:35:00,medium,FLM,2.601593895129453,Printer mechanism failure,False
+INC_ATM_0079_20260104224000,ATM_0079,power,power_supply_failure,2026-01-04 22:40:00,2026-01-05 01:25:00,medium,FLM,2.3063083818927668,Power supply instability,False
+INC_ATM_0067_20260104225000,ATM_0067,card_reader,reader_malfunction,2026-01-04 22:50:00,2026-01-05 01:25:00,medium,FLM,2.2034765332749875,Card reader sensor malfunction,False
+INC_ATM_0093_20260105001500,ATM_0093,network,dns_failure,2026-01-05 00:15:00,2026-01-05 03:00:00,critical,FLM,2.442218187441644,Network connectivity issue,False
+INC_ATM_0158_20260105001500,ATM_0158,dispenser,motor_failure,2026-01-05 00:15:00,2026-01-05 03:10:00,critical,FLM,2.564803833000645,Mechanical wear in dispenser,False
+INC_ATM_0113_20260105020500,ATM_0113,software,driver_failure,2026-01-05 02:05:00,2026-01-05 04:55:00,critical,FLM,2.3035350198488955,Software exception,False
+INC_ATM_0037_20260105024000,ATM_0037,card_reader,read_error,2026-01-05 02:40:00,2026-01-05 12:55:00,low,SLM,9.743850450632056,Card reader sensor malfunction,False
+INC_ATM_0028_20260105025000,ATM_0028,software,application_crash,2026-01-05 02:50:00,2026-01-05 09:20:00,medium,SLM,6.226683099700679,Software exception,False
+INC_ATM_0084_20260105030500,ATM_0084,power,power_supply_failure,2026-01-05 03:05:00,2026-01-05 11:55:00,high,SLM,8.325955514474542,Power supply instability,False
+INC_ATM_0002_20260105040500,ATM_0002,power,power_outage,2026-01-05 04:05:00,2026-01-05 07:05:00,high,FLM,2.530206588669177,Power supply instability,False
+INC_ATM_0033_20260105060500,ATM_0033,thermal,cooling_system_failure,2026-01-05 06:05:00,2026-01-05 07:35:00,low,FLM,1.110708555471862,Thermal management failure,False
+INC_ATM_0123_20260105075000,ATM_0123,card_reader,read_error,2026-01-05 07:50:00,2026-01-05 22:40:00,high,SLM,14.571342554270196,Card reader sensor malfunction,False
+INC_ATM_0171_20260105090000,ATM_0171,card_reader,card_jam,2026-01-05 09:00:00,2026-01-05 12:05:00,low,FLM,2.6739931213586976,Card reader sensor malfunction,False
+INC_ATM_0038_20260105103000,ATM_0038,printer,print_head_failure,2026-01-05 10:30:00,2026-01-05 22:35:00,low,SLM,11.8147740042366,Printer mechanism failure,False
+INC_ATM_0147_20260105112500,ATM_0147,power,power_outage,2026-01-05 11:25:00,2026-01-05 14:10:00,medium,FLM,2.553225305869838,Power supply instability,False
+INC_ATM_0001_20260105123500,ATM_0001,printer,print_head_failure,2026-01-05 12:35:00,2026-01-05 14:55:00,medium,FLM,1.8635123000400824,Printer mechanism failure,False
+INC_ATM_0117_20260105130000,ATM_0117,card_reader,reader_malfunction,2026-01-05 13:00:00,2026-01-05 14:00:00,medium,FLM,0.7197405124649177,Card reader sensor malfunction,False
+INC_ATM_0053_20260105130500,ATM_0053,hardware,disk_failure,2026-01-05 13:05:00,2026-01-05 15:30:00,low,FLM,2.1989227003252703,Hardware component failure,False
+INC_ATM_0079_20260105132500,ATM_0079,software,os_error,2026-01-05 13:25:00,2026-01-05 15:05:00,low,FLM,1.3457784650663722,Software exception,False
+INC_ATM_0115_20260105133000,ATM_0115,dispenser,transport_error,2026-01-05 13:30:00,2026-01-05 15:55:00,high,FLM,2.2369248837650457,Mechanical wear in dispenser,False
+INC_ATM_0132_20260105134500,ATM_0132,dispenser,jam,2026-01-05 13:45:00,2026-01-06 01:25:00,medium,SLM,11.182781016698675,Mechanical wear in dispenser,False
+INC_ATM_0143_20260105134500,ATM_0143,card_reader,read_error,2026-01-05 13:45:00,2026-01-05 16:00:00,critical,FLM,1.9032290223708157,Card reader sensor malfunction,False
+INC_ATM_0129_20260105140000,ATM_0129,thermal,fan_failure,2026-01-05 14:00:00,2026-01-05 21:00:00,medium,SLM,6.822016927172394,Thermal management failure,False
+INC_ATM_0144_20260105141000,ATM_0144,card_reader,card_jam,2026-01-05 14:10:00,2026-01-05 16:30:00,medium,FLM,2.007146687920495,Card reader sensor malfunction,False
+INC_ATM_0006_20260105141500,ATM_0006,card_reader,read_error,2026-01-05 14:15:00,2026-01-05 22:25:00,medium,SLM,7.632781918921178,Card reader sensor malfunction,False
+INC_ATM_0055_20260105144500,ATM_0055,network,timeout,2026-01-05 14:45:00,2026-01-05 17:55:00,high,FLM,2.850767360458634,Network connectivity issue,False
+INC_ATM_0039_20260105150500,ATM_0039,network,connectivity_loss,2026-01-05 15:05:00,2026-01-05 21:00:00,critical,SLM,5.666074753665606,Network connectivity issue,False
+INC_ATM_0013_20260105162000,ATM_0013,hardware,disk_failure,2026-01-05 16:20:00,2026-01-05 19:25:00,low,FLM,2.635191716976833,Hardware component failure,False
+INC_ATM_0027_20260105174000,ATM_0027,printer,paper_jam,2026-01-05 17:40:00,2026-01-05 20:10:00,medium,FLM,2.16043076493837,Printer mechanism failure,False
+INC_ATM_0126_20260105185500,ATM_0126,network,timeout,2026-01-05 18:55:00,2026-01-05 21:30:00,medium,FLM,2.327813868622401,Network connectivity issue,False
+INC_ATM_0036_20260105195000,ATM_0036,thermal,cooling_system_failure,2026-01-05 19:50:00,2026-01-05 23:15:00,low,FLM,2.9522341345822927,Thermal management failure,False
+INC_ATM_0110_20260105201500,ATM_0110,printer,paper_jam,2026-01-05 20:15:00,2026-01-06 04:45:00,low,SLM,8.236204245522245,Printer mechanism failure,False
+INC_ATM_0059_20260105215500,ATM_0059,thermal,overheating,2026-01-05 21:55:00,2026-01-05 23:40:00,high,FLM,1.3514861423987297,Thermal management failure,False
+INC_ATM_0078_20260105221000,ATM_0078,software,application_crash,2026-01-05 22:10:00,2026-01-06 01:15:00,high,FLM,2.845109407500422,Software exception,False
+INC_ATM_0083_20260105222500,ATM_0083,card_reader,card_jam,2026-01-05 22:25:00,2026-01-05 23:55:00,medium,FLM,1.2237624297936138,Card reader sensor malfunction,False
+INC_ATM_0021_20260105230000,ATM_0021,printer,cutter_failure,2026-01-05 23:00:00,2026-01-06 01:30:00,critical,FLM,2.140120192793377,Printer mechanism failure,False
+INC_ATM_0019_20260105232000,ATM_0019,power,power_supply_failure,2026-01-05 23:20:00,2026-01-06 06:20:00,medium,SLM,6.604255294551472,Power supply instability,False
+INC_ATM_0041_20260105232500,ATM_0041,dispenser,pick_failure,2026-01-05 23:25:00,2026-01-06 01:50:00,low,FLM,2.140948055343578,Mechanical wear in dispenser,False
+INC_ATM_0013_20260105233500,ATM_0013,card_reader,reader_malfunction,2026-01-05 23:35:00,2026-01-06 02:35:00,high,FLM,2.683357466527248,Card reader sensor malfunction,False
+INC_ATM_0161_20260105234000,ATM_0161,hardware,memory_error,2026-01-05 23:40:00,2026-01-06 01:15:00,critical,FLM,1.2845856974109937,Hardware component failure,False
+INC_ATM_0047_20260106000500,ATM_0047,dispenser,jam,2026-01-06 00:05:00,2026-01-06 10:00:00,low,SLM,9.600044570052628,Mechanical wear in dispenser,False
+INC_ATM_0119_20260106000500,ATM_0119,network,switch_failure,2026-01-06 00:05:00,2026-01-06 04:20:00,medium,SLM,3.9614279690625,Network connectivity issue,False
+INC_ATM_0043_20260106002500,ATM_0043,card_reader,read_error,2026-01-06 00:25:00,2026-01-06 02:25:00,low,FLM,1.7259876137790398,Card reader sensor malfunction,False
+INC_ATM_0027_20260106005000,ATM_0027,power,power_outage,2026-01-06 00:50:00,2026-01-06 02:55:00,medium,FLM,1.63919546310858,Power supply instability,False
+INC_ATM_0087_20260106010500,ATM_0087,card_reader,read_error,2026-01-06 01:05:00,2026-01-06 02:35:00,medium,FLM,1.3164104328086204,Card reader sensor malfunction,False
+INC_ATM_0134_20260106012500,ATM_0134,card_reader,read_error,2026-01-06 01:25:00,2026-01-06 09:00:00,medium,SLM,7.22101158924284,Card reader sensor malfunction,False
+INC_ATM_0017_20260106021500,ATM_0017,network,connectivity_loss,2026-01-06 02:15:00,2026-01-06 03:50:00,medium,FLM,1.4078705833429128,Network connectivity issue,False
+INC_ATM_0067_20260106024000,ATM_0067,thermal,fan_failure,2026-01-06 02:40:00,2026-01-06 04:55:00,medium,FLM,1.8408235906894082,Thermal management failure,False
+INC_ATM_0001_20260106032500,ATM_0001,card_reader,read_error,2026-01-06 03:25:00,2026-01-06 05:25:00,low,FLM,1.6112304800775112,Card reader sensor malfunction,False
+INC_ATM_0003_20260106044500,ATM_0003,printer,cutter_failure,2026-01-06 04:45:00,2026-01-06 13:50:00,high,SLM,8.632444249408254,Printer mechanism failure,False
+INC_ATM_0044_20260106054500,ATM_0044,thermal,overheating,2026-01-06 05:45:00,2026-01-06 07:40:00,low,FLM,1.5070046837880793,Thermal management failure,True
+INC_ATM_0159_20260106055000,ATM_0159,card_reader,read_error,2026-01-06 05:50:00,2026-01-06 07:50:00,low,FLM,1.5852769757545595,Card reader sensor malfunction,False
+INC_ATM_0063_20260106062000,ATM_0063,network,switch_failure,2026-01-06 06:20:00,2026-01-06 08:05:00,medium,FLM,1.4094014242808295,Network connectivity issue,False
+INC_ATM_0018_20260106063500,ATM_0018,card_reader,card_jam,2026-01-06 06:35:00,2026-01-06 09:10:00,medium,FLM,2.26413665669326,Card reader sensor malfunction,False
+INC_ATM_0082_20260106085000,ATM_0082,printer,print_head_failure,2026-01-06 08:50:00,2026-01-06 11:50:00,low,FLM,2.7112818235810083,Printer mechanism failure,False
+INC_ATM_0113_20260106092000,ATM_0113,dispenser,motor_failure,2026-01-06 09:20:00,2026-01-06 11:40:00,high,FLM,1.9249708965120373,Mechanical wear in dispenser,False
+INC_ATM_0076_20260106092500,ATM_0076,card_reader,read_error,2026-01-06 09:25:00,2026-01-06 11:25:00,high,FLM,1.5954250116240354,Card reader sensor malfunction,False
+INC_ATM_0092_20260106093500,ATM_0092,dispenser,pick_failure,2026-01-06 09:35:00,2026-01-06 11:30:00,low,FLM,1.6423760080100798,Mechanical wear in dispenser,False
+INC_ATM_0083_20260106095000,ATM_0083,card_reader,card_jam,2026-01-06 09:50:00,2026-01-06 16:20:00,medium,SLM,6.24980750643414,Card reader sensor malfunction,False
+INC_ATM_0056_20260106101500,ATM_0056,software,application_crash,2026-01-06 10:15:00,2026-01-06 12:50:00,low,FLM,2.3755334256964433,Software exception,False
+INC_ATM_0028_20260106104000,ATM_0028,card_reader,reader_malfunction,2026-01-06 10:40:00,2026-01-06 18:25:00,medium,SLM,7.542997139542085,Card reader sensor malfunction,False
+INC_ATM_0108_20260106104000,ATM_0108,printer,paper_jam,2026-01-06 10:40:00,2026-01-06 16:15:00,medium,SLM,5.192041132150733,Printer mechanism failure,False
+INC_ATM_0104_20260106112500,ATM_0104,power,power_supply_failure,2026-01-06 11:25:00,2026-01-06 12:40:00,medium,FLM,1.0692148954414022,Power supply instability,False
+INC_ATM_0055_20260106122500,ATM_0055,network,connectivity_loss,2026-01-06 12:25:00,2026-01-06 21:20:00,low,SLM,8.357812599560209,Network connectivity issue,False
+INC_ATM_0039_20260106134000,ATM_0039,card_reader,reader_malfunction,2026-01-06 13:40:00,2026-01-06 14:45:00,critical,FLM,0.7099403677681961,Card reader sensor malfunction,False
+INC_ATM_0057_20260106142000,ATM_0057,network,connectivity_loss,2026-01-06 14:20:00,2026-01-06 17:00:00,medium,FLM,2.1787999033474947,Network connectivity issue,False
+INC_ATM_0044_20260106170000,ATM_0044,power,power_supply_failure,2026-01-06 17:00:00,2026-01-07 02:00:00,low,SLM,8.794757484869908,Power supply instability,False
+INC_ATM_0151_20260106170000,ATM_0151,hardware,memory_error,2026-01-06 17:00:00,2026-01-06 23:05:00,medium,SLM,5.723810068985962,Hardware component failure,False
+INC_ATM_0063_20260106172000,ATM_0063,card_reader,read_error,2026-01-06 17:20:00,2026-01-06 19:25:00,medium,FLM,1.7724589575271024,Card reader sensor malfunction,False
+INC_ATM_0081_20260106182500,ATM_0081,hardware,controller_failure,2026-01-06 18:25:00,2026-01-07 02:10:00,medium,SLM,7.175477982871246,Hardware component failure,False
+INC_ATM_0058_20260106191000,ATM_0058,card_reader,reader_malfunction,2026-01-06 19:10:00,2026-01-07 03:00:00,low,SLM,7.567561744660949,Card reader sensor malfunction,False
+INC_ATM_0087_20260106194000,ATM_0087,dispenser,motor_failure,2026-01-06 19:40:00,2026-01-07 04:15:00,low,SLM,8.264563276983887,Mechanical wear in dispenser,False
+INC_ATM_0113_20260106203500,ATM_0113,network,timeout,2026-01-06 20:35:00,2026-01-06 22:30:00,high,FLM,1.5495692515855388,Network connectivity issue,False
+INC_ATM_0154_20260106213000,ATM_0154,power,power_outage,2026-01-06 21:30:00,2026-01-07 00:05:00,low,FLM,2.3949156478785074,Power supply instability,False
+INC_ATM_0135_20260106220500,ATM_0135,software,driver_failure,2026-01-06 22:05:00,2026-01-07 00:55:00,low,FLM,2.4041633427298565,Software exception,False
+INC_ATM_0013_20260106221000,ATM_0013,dispenser,transport_error,2026-01-06 22:10:00,2026-01-07 00:05:00,medium,FLM,1.7137390688579057,Mechanical wear in dispenser,False
+INC_ATM_0028_20260106224500,ATM_0028,card_reader,reader_malfunction,2026-01-06 22:45:00,2026-01-07 01:15:00,medium,FLM,2.233834621997556,Card reader sensor malfunction,False
+INC_ATM_0160_20260106232500,ATM_0160,printer,cutter_failure,2026-01-06 23:25:00,2026-01-07 06:05:00,medium,SLM,6.35576216075293,Printer mechanism failure,False
+INC_ATM_0128_20260107002000,ATM_0128,printer,paper_jam,2026-01-07 00:20:00,2026-01-07 03:10:00,medium,FLM,2.3408195271501033,Printer mechanism failure,False
+INC_ATM_0129_20260107005000,ATM_0129,thermal,fan_failure,2026-01-07 00:50:00,2026-01-07 08:30:00,low,SLM,7.268419316996416,Thermal management failure,False
+INC_ATM_0173_20260107020000,ATM_0173,card_reader,reader_malfunction,2026-01-07 02:00:00,2026-01-07 04:35:00,medium,FLM,2.1860199122369486,Card reader sensor malfunction,True
+INC_ATM_0067_20260107034000,ATM_0067,card_reader,read_error,2026-01-07 03:40:00,2026-01-07 06:00:00,critical,FLM,1.9779258286455343,Card reader sensor malfunction,False
+INC_ATM_0103_20260107040500,ATM_0103,printer,paper_jam,2026-01-07 04:05:00,2026-01-07 07:00:00,low,FLM,2.5114460807539727,Printer mechanism failure,False
+INC_ATM_0079_20260107041500,ATM_0079,card_reader,reader_malfunction,2026-01-07 04:15:00,2026-01-07 11:40:00,high,SLM,7.009372372757728,Card reader sensor malfunction,False
+INC_ATM_0095_20260107050500,ATM_0095,printer,cutter_failure,2026-01-07 05:05:00,2026-01-07 13:35:00,low,SLM,8.2023915510677,Printer mechanism failure,False
+INC_ATM_0042_20260107051500,ATM_0042,card_reader,card_jam,2026-01-07 05:15:00,2026-01-07 07:35:00,medium,FLM,1.8822141155762575,Card reader sensor malfunction,False
+INC_ATM_0060_20260107051500,ATM_0060,card_reader,reader_malfunction,2026-01-07 05:15:00,2026-01-07 13:15:00,low,SLM,7.584667632115864,Card reader sensor malfunction,False
+INC_ATM_0109_20260107051500,ATM_0109,hardware,disk_failure,2026-01-07 05:15:00,2026-01-07 06:55:00,medium,FLM,1.3559213834493087,Hardware component failure,False
+INC_ATM_0102_20260107062000,ATM_0102,software,application_crash,2026-01-07 06:20:00,2026-01-07 17:20:00,low,SLM,10.584407847185302,Software exception,False
+INC_ATM_0074_20260107073000,ATM_0074,network,timeout,2026-01-07 07:30:00,2026-01-07 17:05:00,medium,SLM,9.219016128622712,Network connectivity issue,False
+INC_ATM_0043_20260107085500,ATM_0043,card_reader,card_jam,2026-01-07 08:55:00,2026-01-07 11:25:00,high,FLM,2.1957853558213447,Card reader sensor malfunction,False
+INC_ATM_0135_20260107093000,ATM_0135,printer,print_head_failure,2026-01-07 09:30:00,2026-01-07 11:30:00,high,FLM,1.8056700498905787,Printer mechanism failure,False
+INC_ATM_0049_20260107103500,ATM_0049,network,dns_failure,2026-01-07 10:35:00,2026-01-07 13:10:00,medium,FLM,2.254465024869047,Network connectivity issue,False
+INC_ATM_0016_20260107113000,ATM_0016,hardware,controller_failure,2026-01-07 11:30:00,2026-01-07 13:10:00,medium,FLM,1.3829598488268475,Hardware component failure,False
+INC_ATM_0134_20260107131000,ATM_0134,thermal,overheating,2026-01-07 13:10:00,2026-01-07 20:00:00,low,SLM,6.425551556050088,Thermal management failure,False
+INC_ATM_0015_20260107142500,ATM_0015,software,application_crash,2026-01-07 14:25:00,2026-01-07 17:10:00,medium,FLM,2.516538340848832,Software exception,False
+INC_ATM_0011_20260107144000,ATM_0011,card_reader,read_error,2026-01-07 14:40:00,2026-01-07 21:30:00,high,SLM,6.43223696358192,Card reader sensor malfunction,True
+INC_ATM_0165_20260107144000,ATM_0165,network,timeout,2026-01-07 14:40:00,2026-01-07 23:35:00,high,SLM,8.604193333169146,Network connectivity issue,False
+INC_ATM_0169_20260107161000,ATM_0169,network,connectivity_loss,2026-01-07 16:10:00,2026-01-07 21:40:00,critical,SLM,5.108072700692841,Network connectivity issue,False
+INC_ATM_0024_20260107162000,ATM_0024,card_reader,read_error,2026-01-07 16:20:00,2026-01-07 18:10:00,critical,FLM,1.6024078814017724,Card reader sensor malfunction,False
+INC_ATM_0119_20260107165000,ATM_0119,card_reader,reader_malfunction,2026-01-07 16:50:00,2026-01-07 18:40:00,medium,FLM,1.5004611355225088,Card reader sensor malfunction,False
+INC_ATM_0161_20260107165000,ATM_0161,thermal,fan_failure,2026-01-07 16:50:00,2026-01-07 19:10:00,high,FLM,1.9460040988296536,Thermal management failure,False
+INC_ATM_0012_20260107171500,ATM_0012,dispenser,motor_failure,2026-01-07 17:15:00,2026-01-07 19:25:00,low,FLM,1.9625673242667214,Mechanical wear in dispenser,False
+INC_ATM_0090_20260107175000,ATM_0090,card_reader,card_jam,2026-01-07 17:50:00,2026-01-07 19:45:00,critical,FLM,1.7059778608709613,Card reader sensor malfunction,False
+INC_ATM_0086_20260107180500,ATM_0086,printer,paper_jam,2026-01-07 18:05:00,2026-01-07 20:10:00,medium,FLM,1.7567751046910496,Printer mechanism failure,False
+INC_ATM_0108_20260107191500,ATM_0108,card_reader,read_error,2026-01-07 19:15:00,2026-01-07 21:45:00,low,FLM,2.05724290771068,Card reader sensor malfunction,False
+INC_ATM_0102_20260107193000,ATM_0102,hardware,memory_error,2026-01-07 19:30:00,2026-01-07 21:15:00,low,FLM,1.5137637605589753,Hardware component failure,True
+INC_ATM_0022_20260107195000,ATM_0022,dispenser,jam,2026-01-07 19:50:00,2026-01-07 22:10:00,high,FLM,1.961563372810545,Mechanical wear in dispenser,False
+INC_ATM_0085_20260107201500,ATM_0085,printer,cutter_failure,2026-01-07 20:15:00,2026-01-07 22:15:00,low,FLM,1.8176144330007507,Printer mechanism failure,False
+INC_ATM_0121_20260107205000,ATM_0121,card_reader,reader_malfunction,2026-01-07 20:50:00,2026-01-08 06:55:00,high,SLM,9.773136858650725,Card reader sensor malfunction,False
+INC_ATM_0006_20260107221000,ATM_0006,printer,paper_jam,2026-01-07 22:10:00,2026-01-08 01:05:00,high,FLM,2.5189383020494853,Printer mechanism failure,False
+INC_ATM_0070_20260107222500,ATM_0070,dispenser,pick_failure,2026-01-07 22:25:00,2026-01-08 01:35:00,medium,FLM,2.8863121325264323,Mechanical wear in dispenser,False
+INC_ATM_0087_20260107231500,ATM_0087,power,voltage_drop,2026-01-07 23:15:00,2026-01-08 07:00:00,medium,SLM,7.468265341710738,Power supply instability,False
+INC_ATM_0161_20260107234500,ATM_0161,printer,print_head_failure,2026-01-07 23:45:00,2026-01-08 02:40:00,medium,FLM,2.6068941345014447,Printer mechanism failure,False
+INC_ATM_0131_20260108000000,ATM_0131,printer,paper_jam,2026-01-08 00:00:00,2026-01-08 02:15:00,low,FLM,1.9089998539515172,Printer mechanism failure,False
+INC_ATM_0081_20260108005000,ATM_0081,printer,print_head_failure,2026-01-08 00:50:00,2026-01-08 03:05:00,low,FLM,1.7521609549023736,Printer mechanism failure,False
+INC_ATM_0047_20260108025000,ATM_0047,network,timeout,2026-01-08 02:50:00,2026-01-08 12:15:00,high,SLM,9.026766249833255,Network connectivity issue,False
+INC_ATM_0147_20260108031500,ATM_0147,power,voltage_drop,2026-01-08 03:15:00,2026-01-08 05:10:00,high,FLM,1.634606921891113,Power supply instability,False
+INC_ATM_0080_20260108033000,ATM_0080,card_reader,card_jam,2026-01-08 03:30:00,2026-01-08 05:30:00,high,FLM,1.615506309430935,Card reader sensor malfunction,False
+INC_ATM_0174_20260108043000,ATM_0174,card_reader,read_error,2026-01-08 04:30:00,2026-01-08 06:50:00,medium,FLM,1.974492715033191,Card reader sensor malfunction,False
+INC_ATM_0158_20260108044500,ATM_0158,card_reader,read_error,2026-01-08 04:45:00,2026-01-08 07:00:00,high,FLM,1.957960733946702,Card reader sensor malfunction,False
+INC_ATM_0104_20260108050000,ATM_0104,power,voltage_drop,2026-01-08 05:00:00,2026-01-08 14:35:00,high,SLM,9.278662087935983,Power supply instability,False
+INC_ATM_0009_20260108060500,ATM_0009,thermal,cooling_system_failure,2026-01-08 06:05:00,2026-01-08 11:55:00,low,SLM,5.553303891771476,Thermal management failure,False
+INC_ATM_0167_20260108065500,ATM_0167,power,ups_failure,2026-01-08 06:55:00,2026-01-08 15:10:00,low,SLM,8.00679567495343,Power supply instability,True
+INC_ATM_0062_20260108070000,ATM_0062,power,power_outage,2026-01-08 07:00:00,2026-01-08 09:50:00,medium,FLM,2.3636511445277417,Power supply instability,False
+INC_ATM_0105_20260108070500,ATM_0105,thermal,overheating,2026-01-08 07:05:00,2026-01-08 09:40:00,critical,FLM,2.085059077489116,Thermal management failure,False
+INC_ATM_0138_20260108070500,ATM_0138,printer,cutter_failure,2026-01-08 07:05:00,2026-01-08 14:00:00,low,SLM,6.481640590495733,Printer mechanism failure,False
+INC_ATM_0032_20260108073500,ATM_0032,printer,cutter_failure,2026-01-08 07:35:00,2026-01-08 10:20:00,medium,FLM,2.3989865114673457,Printer mechanism failure,False
+INC_ATM_0058_20260108074500,ATM_0058,dispenser,motor_failure,2026-01-08 07:45:00,2026-01-08 09:25:00,high,FLM,1.4268725306429388,Mechanical wear in dispenser,False
+INC_ATM_0129_20260108074500,ATM_0129,network,dns_failure,2026-01-08 07:45:00,2026-01-08 12:55:00,low,SLM,4.849167925303584,Network connectivity issue,False
+INC_ATM_0118_20260108075500,ATM_0118,dispenser,jam,2026-01-08 07:55:00,2026-01-08 10:05:00,low,FLM,1.929729613878756,Mechanical wear in dispenser,False
+INC_ATM_0077_20260108082500,ATM_0077,card_reader,reader_malfunction,2026-01-08 08:25:00,2026-01-08 10:45:00,medium,FLM,1.9054960088690174,Card reader sensor malfunction,False
+INC_ATM_0131_20260108082500,ATM_0131,network,dns_failure,2026-01-08 08:25:00,2026-01-08 17:40:00,low,SLM,8.920799327071808,Network connectivity issue,False
+INC_ATM_0127_20260108084000,ATM_0127,thermal,cooling_system_failure,2026-01-08 08:40:00,2026-01-08 14:00:00,high,SLM,4.954119808855893,Thermal management failure,False
+INC_ATM_0155_20260108085000,ATM_0155,hardware,controller_failure,2026-01-08 08:50:00,2026-01-08 10:50:00,high,FLM,1.7422645390522746,Hardware component failure,False
+INC_ATM_0107_20260108092500,ATM_0107,power,power_outage,2026-01-08 09:25:00,2026-01-08 12:40:00,medium,FLM,2.901181887625571,Power supply instability,False
+INC_ATM_0117_20260108105500,ATM_0117,dispenser,transport_error,2026-01-08 10:55:00,2026-01-08 13:10:00,high,FLM,1.8800941801191193,Mechanical wear in dispenser,False
+INC_ATM_0121_20260108112000,ATM_0121,printer,print_head_failure,2026-01-08 11:20:00,2026-01-08 14:30:00,low,FLM,2.912917412278584,Printer mechanism failure,False
+INC_ATM_0116_20260108114500,ATM_0116,dispenser,jam,2026-01-08 11:45:00,2026-01-08 14:40:00,high,FLM,2.7255782675905844,Mechanical wear in dispenser,False
+INC_ATM_0098_20260108115500,ATM_0098,card_reader,read_error,2026-01-08 11:55:00,2026-01-08 13:55:00,low,FLM,1.5231563954900174,Card reader sensor malfunction,False
+INC_ATM_0151_20260108115500,ATM_0151,printer,cutter_failure,2026-01-08 11:55:00,2026-01-08 20:35:00,low,SLM,8.497174749711702,Printer mechanism failure,False
+INC_ATM_0074_20260108130000,ATM_0074,thermal,fan_failure,2026-01-08 13:00:00,2026-01-08 15:10:00,medium,FLM,1.699927876491741,Thermal management failure,False
+INC_ATM_0015_20260108135000,ATM_0015,card_reader,read_error,2026-01-08 13:50:00,2026-01-08 16:30:00,low,FLM,2.2913647897668046,Card reader sensor malfunction,False
+INC_ATM_0046_20260108143000,ATM_0046,hardware,memory_error,2026-01-08 14:30:00,2026-01-08 21:35:00,low,SLM,6.742432859858339,Hardware component failure,False
+INC_ATM_0002_20260108143500,ATM_0002,software,application_crash,2026-01-08 14:35:00,2026-01-08 15:50:00,medium,FLM,0.988104506409321,Software exception,False
+INC_ATM_0056_20260108144500,ATM_0056,network,dns_failure,2026-01-08 14:45:00,2026-01-08 17:15:00,medium,FLM,2.2049670973281104,Network connectivity issue,False
+INC_ATM_0073_20260108144500,ATM_0073,printer,paper_jam,2026-01-08 14:45:00,2026-01-08 17:25:00,medium,FLM,2.258907494745545,Printer mechanism failure,False
+INC_ATM_0001_20260108145500,ATM_0001,power,ups_failure,2026-01-08 14:55:00,2026-01-08 17:45:00,medium,FLM,2.531008088397769,Power supply instability,False
+INC_ATM_0068_20260108152000,ATM_0068,hardware,controller_failure,2026-01-08 15:20:00,2026-01-08 18:35:00,high,FLM,2.846819505985125,Hardware component failure,False
+INC_ATM_0134_20260108152000,ATM_0134,network,connectivity_loss,2026-01-08 15:20:00,2026-01-08 17:25:00,high,FLM,1.7984411258874617,Network connectivity issue,False
+INC_ATM_0130_20260108154500,ATM_0130,hardware,memory_error,2026-01-08 15:45:00,2026-01-08 18:30:00,medium,FLM,2.56156249268058,Hardware component failure,False
+INC_ATM_0100_20260108155000,ATM_0100,thermal,cooling_system_failure,2026-01-08 15:50:00,2026-01-08 22:30:00,low,SLM,6.281834550646487,Thermal management failure,False
+INC_ATM_0052_20260108160000,ATM_0052,card_reader,reader_malfunction,2026-01-08 16:00:00,2026-01-08 18:50:00,critical,FLM,2.523827477880752,Card reader sensor malfunction,False
+INC_ATM_0099_20260108160000,ATM_0099,thermal,fan_failure,2026-01-08 16:00:00,2026-01-08 19:20:00,medium,FLM,2.8948896238432074,Thermal management failure,False
+INC_ATM_0037_20260108161500,ATM_0037,hardware,controller_failure,2026-01-08 16:15:00,2026-01-08 17:25:00,medium,FLM,0.9395836179618202,Hardware component failure,False
+INC_ATM_0034_20260108164000,ATM_0034,card_reader,read_error,2026-01-08 16:40:00,2026-01-09 02:05:00,high,SLM,9.119364402151579,Card reader sensor malfunction,False
+INC_ATM_0067_20260108171000,ATM_0067,card_reader,reader_malfunction,2026-01-08 17:10:00,2026-01-08 20:15:00,low,FLM,2.686666415060222,Card reader sensor malfunction,False
+INC_ATM_0150_20260108181000,ATM_0150,printer,cutter_failure,2026-01-08 18:10:00,2026-01-08 20:20:00,medium,FLM,1.810441234609575,Printer mechanism failure,False
+INC_ATM_0123_20260108185000,ATM_0123,card_reader,read_error,2026-01-08 18:50:00,2026-01-08 22:25:00,low,FLM,3.2607640578914285,Card reader sensor malfunction,False
+INC_ATM_0027_20260108191500,ATM_0027,dispenser,jam,2026-01-08 19:15:00,2026-01-08 21:45:00,medium,FLM,2.1832369064811012,Mechanical wear in dispenser,False
+INC_ATM_0005_20260108200500,ATM_0005,network,timeout,2026-01-08 20:05:00,2026-01-08 22:20:00,medium,FLM,1.8346628769351885,Network connectivity issue,False
+INC_ATM_0114_20260108201000,ATM_0114,hardware,disk_failure,2026-01-08 20:10:00,2026-01-08 22:45:00,medium,FLM,2.2532826714732317,Hardware component failure,False
+INC_ATM_0058_20260108221500,ATM_0058,software,application_crash,2026-01-08 22:15:00,2026-01-09 00:25:00,low,FLM,1.8819961341410114,Software exception,False
+INC_ATM_0109_20260108223500,ATM_0109,card_reader,read_error,2026-01-08 22:35:00,2026-01-09 00:55:00,low,FLM,1.996526221247582,Card reader sensor malfunction,False
+INC_ATM_0169_20260108225000,ATM_0169,hardware,memory_error,2026-01-08 22:50:00,2026-01-09 02:10:00,low,FLM,2.8719628172532836,Hardware component failure,False
+INC_ATM_0028_20260108230000,ATM_0028,card_reader,card_jam,2026-01-08 23:00:00,2026-01-09 01:50:00,medium,FLM,2.5128403772698023,Card reader sensor malfunction,False
+INC_ATM_0161_20260108230000,ATM_0161,card_reader,card_jam,2026-01-08 23:00:00,2026-01-09 09:30:00,medium,SLM,10.185117536315174,Card reader sensor malfunction,False
+INC_ATM_0132_20260108231500,ATM_0132,thermal,overheating,2026-01-08 23:15:00,2026-01-09 01:25:00,high,FLM,1.8839688383385513,Thermal management failure,False
+INC_ATM_0066_20260108232000,ATM_0066,network,dns_failure,2026-01-08 23:20:00,2026-01-09 02:20:00,medium,FLM,2.620795101373316,Network connectivity issue,False
+INC_ATM_0156_20260108233000,ATM_0156,card_reader,reader_malfunction,2026-01-08 23:30:00,2026-01-09 01:50:00,low,FLM,2.1263929669184978,Card reader sensor malfunction,False
+INC_ATM_0073_20260109002000,ATM_0073,dispenser,pick_failure,2026-01-09 00:20:00,2026-01-09 02:25:00,high,FLM,1.7765294822471382,Mechanical wear in dispenser,False
+INC_ATM_0079_20260109002000,ATM_0079,dispenser,pick_failure,2026-01-09 00:20:00,2026-01-09 10:15:00,medium,SLM,9.584456107061932,Mechanical wear in dispenser,False
+INC_ATM_0111_20260109010000,ATM_0111,dispenser,pick_failure,2026-01-09 01:00:00,2026-01-09 11:40:00,critical,SLM,10.143308630727109,Mechanical wear in dispenser,False
+INC_ATM_0041_20260109015000,ATM_0041,printer,cutter_failure,2026-01-09 01:50:00,2026-01-09 04:25:00,low,FLM,2.3036134650760465,Printer mechanism failure,False
+INC_ATM_0098_20260109030000,ATM_0098,dispenser,jam,2026-01-09 03:00:00,2026-01-09 13:30:00,high,SLM,9.953650058595526,Mechanical wear in dispenser,True
+INC_ATM_0159_20260109032000,ATM_0159,power,power_supply_failure,2026-01-09 03:20:00,2026-01-09 05:30:00,critical,FLM,1.9119549338347106,Power supply instability,False
+INC_ATM_0019_20260109033000,ATM_0019,card_reader,read_error,2026-01-09 03:30:00,2026-01-09 06:15:00,high,FLM,2.425089623753983,Card reader sensor malfunction,False
+INC_ATM_0089_20260109033500,ATM_0089,power,power_supply_failure,2026-01-09 03:35:00,2026-01-09 06:15:00,high,FLM,2.2309406769457962,Power supply instability,False
+INC_ATM_0043_20260109041500,ATM_0043,network,switch_failure,2026-01-09 04:15:00,2026-01-09 10:15:00,low,SLM,5.711352604766153,Network connectivity issue,False
+INC_ATM_0086_20260109043000,ATM_0086,dispenser,pick_failure,2026-01-09 04:30:00,2026-01-09 17:15:00,high,SLM,12.37556452453467,Mechanical wear in dispenser,False
+INC_ATM_0109_20260109050500,ATM_0109,power,ups_failure,2026-01-09 05:05:00,2026-01-09 09:35:00,low,SLM,4.148793846825209,Power supply instability,False
+INC_ATM_0047_20260109051500,ATM_0047,dispenser,motor_failure,2026-01-09 05:15:00,2026-01-09 15:20:00,high,SLM,9.7187597892127,Mechanical wear in dispenser,False
+INC_ATM_0033_20260109063500,ATM_0033,hardware,disk_failure,2026-01-09 06:35:00,2026-01-09 17:30:00,medium,SLM,10.623614797077373,Hardware component failure,False
+INC_ATM_0169_20260109065500,ATM_0169,card_reader,card_jam,2026-01-09 06:55:00,2026-01-09 10:00:00,low,FLM,2.8419129140447574,Card reader sensor malfunction,False
+INC_ATM_0119_20260109074000,ATM_0119,card_reader,card_jam,2026-01-09 07:40:00,2026-01-09 15:05:00,high,SLM,7.134110692096783,Card reader sensor malfunction,False
+INC_ATM_0131_20260109081000,ATM_0131,power,power_supply_failure,2026-01-09 08:10:00,2026-01-09 17:00:00,high,SLM,8.51109008134871,Power supply instability,False
+INC_ATM_0050_20260109085500,ATM_0050,dispenser,jam,2026-01-09 08:55:00,2026-01-09 10:55:00,medium,FLM,1.7330678977115839,Mechanical wear in dispenser,False
+INC_ATM_0049_20260109095500,ATM_0049,software,driver_failure,2026-01-09 09:55:00,2026-01-09 15:15:00,critical,SLM,5.081453719990867,Software exception,False
+INC_ATM_0123_20260109095500,ATM_0123,software,driver_failure,2026-01-09 09:55:00,2026-01-09 13:00:00,high,FLM,2.8280918293162203,Software exception,False
+INC_ATM_0061_20260109114500,ATM_0061,dispenser,motor_failure,2026-01-09 11:45:00,2026-01-09 20:45:00,low,SLM,8.635114626251184,Mechanical wear in dispenser,False
+INC_ATM_0075_20260109114500,ATM_0075,printer,cutter_failure,2026-01-09 11:45:00,2026-01-09 19:15:00,medium,SLM,7.219675921343978,Printer mechanism failure,False
+INC_ATM_0136_20260109120500,ATM_0136,card_reader,read_error,2026-01-09 12:05:00,2026-01-09 13:35:00,medium,FLM,1.223881319243268,Card reader sensor malfunction,False
+INC_ATM_0001_20260109122500,ATM_0001,power,voltage_drop,2026-01-09 12:25:00,2026-01-09 21:00:00,critical,SLM,8.335035225060086,Power supply instability,False
+INC_ATM_0105_20260109132000,ATM_0105,printer,paper_jam,2026-01-09 13:20:00,2026-01-09 15:40:00,high,FLM,2.157364697147529,Printer mechanism failure,False
+INC_ATM_0117_20260109142000,ATM_0117,card_reader,card_jam,2026-01-09 14:20:00,2026-01-09 16:35:00,medium,FLM,1.8536974146010579,Card reader sensor malfunction,False
+INC_ATM_0070_20260109142500,ATM_0070,network,connectivity_loss,2026-01-09 14:25:00,2026-01-09 15:40:00,high,FLM,1.0216578467967086,Network connectivity issue,False
+INC_ATM_0080_20260109191000,ATM_0080,network,switch_failure,2026-01-09 19:10:00,2026-01-09 21:00:00,low,FLM,1.489396695534471,Network connectivity issue,False
+INC_ATM_0128_20260109212000,ATM_0128,hardware,disk_failure,2026-01-09 21:20:00,2026-01-10 00:15:00,critical,FLM,2.6241560123373615,Hardware component failure,False
+INC_ATM_0148_20260109223500,ATM_0148,dispenser,transport_error,2026-01-09 22:35:00,2026-01-10 05:40:00,high,SLM,6.756745084506735,Mechanical wear in dispenser,False
+INC_ATM_0005_20260109233500,ATM_0005,network,switch_failure,2026-01-09 23:35:00,2026-01-10 01:45:00,low,FLM,1.8088224882528965,Network connectivity issue,False
+INC_ATM_0168_20260109234000,ATM_0168,network,timeout,2026-01-09 23:40:00,2026-01-10 01:10:00,high,FLM,1.129955419816349,Network connectivity issue,False
+INC_ATM_0171_20260109234000,ATM_0171,printer,print_head_failure,2026-01-09 23:40:00,2026-01-10 09:05:00,low,SLM,9.16822620673027,Printer mechanism failure,False
+INC_ATM_0077_20260109235500,ATM_0077,network,dns_failure,2026-01-09 23:55:00,2026-01-10 06:15:00,medium,SLM,5.923058430759948,Network connectivity issue,False
+INC_ATM_0161_20260110001500,ATM_0161,dispenser,jam,2026-01-10 00:15:00,2026-01-10 02:25:00,medium,FLM,1.8465625253812552,Mechanical wear in dispenser,False
+INC_ATM_0017_20260110010500,ATM_0017,printer,print_head_failure,2026-01-10 01:05:00,2026-01-10 03:35:00,high,FLM,2.1361569245682555,Printer mechanism failure,True
+INC_ATM_0096_20260110014500,ATM_0096,power,power_supply_failure,2026-01-10 01:45:00,2026-01-10 04:05:00,medium,FLM,2.0445561164879114,Power supply instability,False
+INC_ATM_0019_20260110024500,ATM_0019,card_reader,card_jam,2026-01-10 02:45:00,2026-01-10 05:05:00,low,FLM,2.02724358519743,Card reader sensor malfunction,False
+INC_ATM_0026_20260110032000,ATM_0026,printer,cutter_failure,2026-01-10 03:20:00,2026-01-10 06:40:00,medium,FLM,2.961786745399595,Printer mechanism failure,False
+INC_ATM_0061_20260110033000,ATM_0061,printer,paper_jam,2026-01-10 03:30:00,2026-01-10 13:20:00,low,SLM,9.468600619563798,Printer mechanism failure,False
+INC_ATM_0158_20260110033500,ATM_0158,software,os_error,2026-01-10 03:35:00,2026-01-10 06:15:00,low,FLM,2.4267516676880048,Software exception,False
+INC_ATM_0121_20260110050500,ATM_0121,card_reader,read_error,2026-01-10 05:05:00,2026-01-10 16:25:00,medium,SLM,11.071656121821519,Card reader sensor malfunction,False
+INC_ATM_0086_20260110060000,ATM_0086,dispenser,jam,2026-01-10 06:00:00,2026-01-10 15:25:00,medium,SLM,8.966241254040945,Mechanical wear in dispenser,False
+INC_ATM_0134_20260110060500,ATM_0134,dispenser,transport_error,2026-01-10 06:05:00,2026-01-10 12:50:00,medium,SLM,6.476455898845425,Mechanical wear in dispenser,False
+INC_ATM_0054_20260110064500,ATM_0054,printer,cutter_failure,2026-01-10 06:45:00,2026-01-10 08:30:00,low,FLM,1.5331123684168104,Printer mechanism failure,False
+INC_ATM_0075_20260110070500,ATM_0075,software,application_crash,2026-01-10 07:05:00,2026-01-10 12:10:00,medium,SLM,4.843586522968124,Software exception,False
+INC_ATM_0051_20260110072500,ATM_0051,card_reader,read_error,2026-01-10 07:25:00,2026-01-10 12:05:00,medium,SLM,4.4074019135894265,Card reader sensor malfunction,False
+INC_ATM_0145_20260110072500,ATM_0145,hardware,controller_failure,2026-01-10 07:25:00,2026-01-10 17:30:00,low,SLM,9.734869808944211,Hardware component failure,False
+INC_ATM_0062_20260110075500,ATM_0062,software,os_error,2026-01-10 07:55:00,2026-01-10 10:25:00,high,FLM,2.1689403470225646,Software exception,False
+INC_ATM_0063_20260110081000,ATM_0063,software,os_error,2026-01-10 08:10:00,2026-01-10 11:20:00,medium,FLM,2.893219138986419,Software exception,False
+INC_ATM_0038_20260110090500,ATM_0038,printer,paper_jam,2026-01-10 09:05:00,2026-01-10 12:25:00,low,FLM,3.007129713347615,Printer mechanism failure,False
+INC_ATM_0045_20260110095000,ATM_0045,thermal,overheating,2026-01-10 09:50:00,2026-01-10 21:45:00,medium,SLM,11.611377780873381,Thermal management failure,False
+INC_ATM_0001_20260110111000,ATM_0001,power,power_outage,2026-01-10 11:10:00,2026-01-10 12:55:00,medium,FLM,1.5075034370914924,Power supply instability,False
+INC_ATM_0173_20260110112000,ATM_0173,hardware,memory_error,2026-01-10 11:20:00,2026-01-10 13:40:00,critical,FLM,1.8456861203917265,Hardware component failure,False
+INC_ATM_0025_20260110113000,ATM_0025,printer,paper_jam,2026-01-10 11:30:00,2026-01-10 16:15:00,low,SLM,4.570633248074952,Printer mechanism failure,False
+INC_ATM_0172_20260110115500,ATM_0172,card_reader,reader_malfunction,2026-01-10 11:55:00,2026-01-10 13:50:00,critical,FLM,1.7152188775473673,Card reader sensor malfunction,False
+INC_ATM_0041_20260110121000,ATM_0041,card_reader,reader_malfunction,2026-01-10 12:10:00,2026-01-10 19:10:00,low,SLM,6.750752155670961,Card reader sensor malfunction,True
+INC_ATM_0158_20260110122000,ATM_0158,card_reader,reader_malfunction,2026-01-10 12:20:00,2026-01-10 20:00:00,high,SLM,7.286239047461392,Card reader sensor malfunction,False
+INC_ATM_0128_20260110125000,ATM_0128,network,timeout,2026-01-10 12:50:00,2026-01-10 14:35:00,medium,FLM,1.400328704185576,Network connectivity issue,False
+INC_ATM_0036_20260110130500,ATM_0036,power,voltage_drop,2026-01-10 13:05:00,2026-01-10 21:05:00,low,SLM,7.7422446636500855,Power supply instability,False
+INC_ATM_0108_20260110131000,ATM_0108,card_reader,card_jam,2026-01-10 13:10:00,2026-01-10 15:45:00,high,FLM,2.1999032191484313,Card reader sensor malfunction,False
+INC_ATM_0037_20260110132000,ATM_0037,card_reader,read_error,2026-01-10 13:20:00,2026-01-10 15:05:00,medium,FLM,1.5369210827066349,Card reader sensor malfunction,False
+INC_ATM_0117_20260110143500,ATM_0117,dispenser,pick_failure,2026-01-10 14:35:00,2026-01-10 17:05:00,medium,FLM,2.128744034448967,Mechanical wear in dispenser,False
+INC_ATM_0098_20260110144000,ATM_0098,printer,cutter_failure,2026-01-10 14:40:00,2026-01-10 21:35:00,low,SLM,6.661006832167499,Printer mechanism failure,True
+INC_ATM_0014_20260110160000,ATM_0014,printer,cutter_failure,2026-01-10 16:00:00,2026-01-10 18:05:00,low,FLM,1.7354154398500752,Printer mechanism failure,False
+INC_ATM_0040_20260110160000,ATM_0040,dispenser,motor_failure,2026-01-10 16:00:00,2026-01-10 18:25:00,low,FLM,2.1486929628592404,Mechanical wear in dispenser,False
+INC_ATM_0157_20260110172500,ATM_0157,dispenser,pick_failure,2026-01-10 17:25:00,2026-01-11 02:10:00,medium,SLM,8.340965867272761,Mechanical wear in dispenser,False
+INC_ATM_0156_20260110174500,ATM_0156,dispenser,motor_failure,2026-01-10 17:45:00,2026-01-10 19:55:00,critical,FLM,1.7799345872901446,Mechanical wear in dispenser,False
+INC_ATM_0052_20260110175500,ATM_0052,printer,paper_jam,2026-01-10 17:55:00,2026-01-10 20:40:00,low,FLM,2.4829632513825226,Printer mechanism failure,False
+INC_ATM_0114_20260110180500,ATM_0114,power,voltage_drop,2026-01-10 18:05:00,2026-01-11 04:10:00,critical,SLM,9.687047439029264,Power supply instability,False
+INC_ATM_0149_20260110185000,ATM_0149,hardware,controller_failure,2026-01-10 18:50:00,2026-01-10 20:55:00,medium,FLM,1.6262736690261546,Hardware component failure,False
+INC_ATM_0066_20260110190500,ATM_0066,printer,paper_jam,2026-01-10 19:05:00,2026-01-10 21:50:00,low,FLM,2.537256750333312,Printer mechanism failure,False
+INC_ATM_0168_20260110192000,ATM_0168,software,application_crash,2026-01-10 19:20:00,2026-01-11 04:40:00,medium,SLM,9.021022522380292,Software exception,False
+INC_ATM_0020_20260110193500,ATM_0020,printer,paper_jam,2026-01-10 19:35:00,2026-01-10 22:10:00,critical,FLM,2.163626274287641,Printer mechanism failure,False
+INC_ATM_0027_20260110195000,ATM_0027,printer,paper_jam,2026-01-10 19:50:00,2026-01-11 06:15:00,high,SLM,10.229606744038628,Printer mechanism failure,False
+INC_ATM_0137_20260110220500,ATM_0137,card_reader,card_jam,2026-01-10 22:05:00,2026-01-11 09:00:00,medium,SLM,10.70209180131926,Card reader sensor malfunction,False
+INC_ATM_0103_20260110222500,ATM_0103,power,voltage_drop,2026-01-10 22:25:00,2026-01-11 06:55:00,medium,SLM,8.050218563994935,Power supply instability,False
+INC_ATM_0093_20260110224000,ATM_0093,dispenser,transport_error,2026-01-10 22:40:00,2026-01-11 00:50:00,high,FLM,1.765444910775305,Mechanical wear in dispenser,False
+INC_ATM_0018_20260110225000,ATM_0018,network,dns_failure,2026-01-10 22:50:00,2026-01-11 00:50:00,critical,FLM,1.773542548610839,Network connectivity issue,False
+INC_ATM_0061_20260110231000,ATM_0061,network,dns_failure,2026-01-10 23:10:00,2026-01-11 01:00:00,critical,FLM,1.5773506867030598,Network connectivity issue,False
+INC_ATM_0031_20260111005500,ATM_0031,printer,cutter_failure,2026-01-11 00:55:00,2026-01-11 02:35:00,high,FLM,1.3410370569505023,Printer mechanism failure,False
+INC_ATM_0026_20260111012500,ATM_0026,dispenser,jam,2026-01-11 01:25:00,2026-01-11 12:55:00,high,SLM,11.150866780289695,Mechanical wear in dispenser,False
+INC_ATM_0028_20260111014000,ATM_0028,printer,cutter_failure,2026-01-11 01:40:00,2026-01-11 03:25:00,low,FLM,1.5240366049211143,Printer mechanism failure,False
+INC_ATM_0055_20260111015000,ATM_0055,dispenser,motor_failure,2026-01-11 01:50:00,2026-01-11 03:40:00,medium,FLM,1.5828569069442877,Mechanical wear in dispenser,False
+INC_ATM_0118_20260111023500,ATM_0118,printer,paper_jam,2026-01-11 02:35:00,2026-01-11 04:45:00,high,FLM,1.9520585357309579,Printer mechanism failure,False
+INC_ATM_0032_20260111024000,ATM_0032,card_reader,card_jam,2026-01-11 02:40:00,2026-01-11 04:35:00,low,FLM,1.6143260203244507,Card reader sensor malfunction,False
+INC_ATM_0066_20260111035000,ATM_0066,hardware,disk_failure,2026-01-11 03:50:00,2026-01-11 07:20:00,high,FLM,3.0593416004002085,Hardware component failure,False
+INC_ATM_0174_20260111054000,ATM_0174,software,driver_failure,2026-01-11 05:40:00,2026-01-11 08:10:00,medium,FLM,2.092226570601716,Software exception,False
+INC_ATM_0014_20260111055500,ATM_0014,power,ups_failure,2026-01-11 05:55:00,2026-01-11 08:10:00,medium,FLM,1.7867847975788225,Power supply instability,False
+INC_ATM_0003_20260111094500,ATM_0003,hardware,disk_failure,2026-01-11 09:45:00,2026-01-11 19:55:00,low,SLM,9.91788358278322,Hardware component failure,False
+INC_ATM_0175_20260111094500,ATM_0175,software,os_error,2026-01-11 09:45:00,2026-01-11 12:30:00,medium,FLM,2.4285076467566453,Software exception,False
+INC_ATM_0123_20260111112500,ATM_0123,software,driver_failure,2026-01-11 11:25:00,2026-01-11 20:10:00,low,SLM,8.428921993988137,Software exception,False
+INC_ATM_0053_20260111113500,ATM_0053,printer,print_head_failure,2026-01-11 11:35:00,2026-01-11 18:30:00,low,SLM,6.548824859011506,Printer mechanism failure,False
+INC_ATM_0118_20260111122000,ATM_0118,software,os_error,2026-01-11 12:20:00,2026-01-11 20:30:00,low,SLM,7.978766599675456,Software exception,False
+INC_ATM_0129_20260111150000,ATM_0129,card_reader,card_jam,2026-01-11 15:00:00,2026-01-12 01:00:00,high,SLM,9.63497042312614,Card reader sensor malfunction,False
+INC_ATM_0149_20260111154000,ATM_0149,printer,cutter_failure,2026-01-11 15:40:00,2026-01-11 17:10:00,medium,FLM,1.1464539073125617,Printer mechanism failure,False
+INC_ATM_0073_20260111172000,ATM_0073,card_reader,reader_malfunction,2026-01-11 17:20:00,2026-01-11 20:45:00,medium,FLM,3.057877953045729,Card reader sensor malfunction,False
+INC_ATM_0170_20260111184500,ATM_0170,card_reader,card_jam,2026-01-11 18:45:00,2026-01-11 20:55:00,low,FLM,1.795809810105243,Card reader sensor malfunction,False
+INC_ATM_0148_20260111203000,ATM_0148,software,os_error,2026-01-11 20:30:00,2026-01-11 23:10:00,low,FLM,2.233565520102926,Software exception,False
+INC_ATM_0108_20260111205000,ATM_0108,software,driver_failure,2026-01-11 20:50:00,2026-01-12 00:10:00,high,FLM,2.890853786725103,Software exception,False
+INC_ATM_0147_20260111210000,ATM_0147,software,driver_failure,2026-01-11 21:00:00,2026-01-11 22:45:00,critical,FLM,1.479921007844073,Software exception,False
+INC_ATM_0143_20260111223500,ATM_0143,dispenser,jam,2026-01-11 22:35:00,2026-01-12 02:25:00,medium,FLM,3.307023895039973,Mechanical wear in dispenser,False
+INC_ATM_0139_20260111230500,ATM_0139,network,timeout,2026-01-11 23:05:00,2026-01-12 06:55:00,low,SLM,7.4829285910220085,Network connectivity issue,False
+INC_ATM_0038_20260111233500,ATM_0038,network,connectivity_loss,2026-01-11 23:35:00,2026-01-12 08:30:00,low,SLM,8.405412260554758,Network connectivity issue,False
+INC_ATM_0058_20260112001500,ATM_0058,network,timeout,2026-01-12 00:15:00,2026-01-12 02:50:00,medium,FLM,2.2045735781678504,Network connectivity issue,False
+INC_ATM_0163_20260112004000,ATM_0163,printer,print_head_failure,2026-01-12 00:40:00,2026-01-12 10:45:00,medium,SLM,9.71920715128474,Printer mechanism failure,False
+INC_ATM_0045_20260112010000,ATM_0045,card_reader,card_jam,2026-01-12 01:00:00,2026-01-12 03:20:00,medium,FLM,1.9681326813728,Card reader sensor malfunction,False
+INC_ATM_0065_20260112022500,ATM_0065,network,switch_failure,2026-01-12 02:25:00,2026-01-12 12:45:00,high,SLM,9.942742721834183,Network connectivity issue,False
+INC_ATM_0123_20260112032500,ATM_0123,printer,print_head_failure,2026-01-12 03:25:00,2026-01-12 06:30:00,low,FLM,2.8217980466161565,Printer mechanism failure,False
+INC_ATM_0118_20260112033000,ATM_0118,card_reader,reader_malfunction,2026-01-12 03:30:00,2026-01-12 05:10:00,medium,FLM,1.261366027092587,Card reader sensor malfunction,False
+INC_ATM_0150_20260112050000,ATM_0150,printer,paper_jam,2026-01-12 05:00:00,2026-01-12 13:40:00,medium,SLM,8.380421073785216,Printer mechanism failure,False
+INC_ATM_0064_20260112053000,ATM_0064,network,connectivity_loss,2026-01-12 05:30:00,2026-01-12 07:35:00,medium,FLM,1.7861523192546636,Network connectivity issue,False
+INC_ATM_0140_20260112062500,ATM_0140,software,application_crash,2026-01-12 06:25:00,2026-01-12 08:00:00,medium,FLM,1.2617758000468529,Software exception,False
+INC_ATM_0149_20260112063500,ATM_0149,power,power_supply_failure,2026-01-12 06:35:00,2026-01-12 08:55:00,low,FLM,2.0412722200818907,Power supply instability,False
+INC_ATM_0062_20260112070000,ATM_0062,card_reader,card_jam,2026-01-12 07:00:00,2026-01-12 14:55:00,critical,SLM,7.601329045585392,Card reader sensor malfunction,False
+INC_ATM_0003_20260112072000,ATM_0003,power,power_outage,2026-01-12 07:20:00,2026-01-12 09:05:00,high,FLM,1.349462807452964,Power supply instability,False
+INC_ATM_0070_20260112074500,ATM_0070,card_reader,read_error,2026-01-12 07:45:00,2026-01-12 09:50:00,medium,FLM,1.8448634593302875,Card reader sensor malfunction,False
+INC_ATM_0052_20260112075500,ATM_0052,software,driver_failure,2026-01-12 07:55:00,2026-01-12 15:05:00,high,SLM,6.765745024892512,Software exception,False
+INC_ATM_0049_20260112085000,ATM_0049,printer,paper_jam,2026-01-12 08:50:00,2026-01-12 11:30:00,low,FLM,2.1409333315582693,Printer mechanism failure,False
+INC_ATM_0170_20260112091500,ATM_0170,thermal,overheating,2026-01-12 09:15:00,2026-01-12 21:20:00,medium,SLM,11.802398841367706,Thermal management failure,False
+INC_ATM_0022_20260112100500,ATM_0022,dispenser,motor_failure,2026-01-12 10:05:00,2026-01-12 17:00:00,high,SLM,6.529997936630478,Mechanical wear in dispenser,False
+INC_ATM_0111_20260112100500,ATM_0111,dispenser,motor_failure,2026-01-12 10:05:00,2026-01-12 12:40:00,low,FLM,2.3738535529385767,Mechanical wear in dispenser,False
+INC_ATM_0106_20260112134000,ATM_0106,card_reader,reader_malfunction,2026-01-12 13:40:00,2026-01-12 16:40:00,low,FLM,2.4830297513577957,Card reader sensor malfunction,False
+INC_ATM_0108_20260112151500,ATM_0108,card_reader,card_jam,2026-01-12 15:15:00,2026-01-12 17:35:00,low,FLM,2.148658724628146,Card reader sensor malfunction,False
+INC_ATM_0003_20260112155000,ATM_0003,card_reader,reader_malfunction,2026-01-12 15:50:00,2026-01-12 17:50:00,medium,FLM,1.6426155219386707,Card reader sensor malfunction,False
+INC_ATM_0076_20260112163000,ATM_0076,power,voltage_drop,2026-01-12 16:30:00,2026-01-12 19:00:00,medium,FLM,2.039539835386501,Power supply instability,False
+INC_ATM_0159_20260112170500,ATM_0159,dispenser,motor_failure,2026-01-12 17:05:00,2026-01-12 19:55:00,low,FLM,2.4416169035207194,Mechanical wear in dispenser,False
+INC_ATM_0062_20260112174500,ATM_0062,hardware,memory_error,2026-01-12 17:45:00,2026-01-12 20:15:00,high,FLM,2.1638965023140564,Hardware component failure,False
+INC_ATM_0038_20260112175500,ATM_0038,power,power_supply_failure,2026-01-12 17:55:00,2026-01-12 20:10:00,medium,FLM,1.906350968928442,Power supply instability,False
+INC_ATM_0119_20260112185000,ATM_0119,thermal,overheating,2026-01-12 18:50:00,2026-01-12 20:30:00,medium,FLM,1.2540870659642662,Thermal management failure,False
+INC_ATM_0018_20260112191500,ATM_0018,thermal,cooling_system_failure,2026-01-12 19:15:00,2026-01-12 20:45:00,low,FLM,1.1756685709739862,Thermal management failure,False
+INC_ATM_0015_20260112201000,ATM_0015,dispenser,transport_error,2026-01-12 20:10:00,2026-01-12 22:00:00,low,FLM,1.6651290015188884,Mechanical wear in dispenser,True
+INC_ATM_0067_20260112203000,ATM_0067,software,application_crash,2026-01-12 20:30:00,2026-01-12 23:15:00,low,FLM,2.478826027735682,Software exception,False
+INC_ATM_0052_20260112205000,ATM_0052,hardware,disk_failure,2026-01-12 20:50:00,,medium,SLM,9.180775682786486,Hardware component failure,False
+INC_ATM_0116_20260112215000,ATM_0116,dispenser,jam,2026-01-12 21:50:00,,critical,SLM,8.65750153761217,Mechanical wear in dispenser,False
+INC_ATM_0084_20260112223000,ATM_0084,thermal,cooling_system_failure,2026-01-12 22:30:00,,medium,FLM,2.1060510748286063,Thermal management failure,False
+INC_ATM_0023_20260112225000,ATM_0023,network,connectivity_loss,2026-01-12 22:50:00,,low,FLM,1.3963376635563085,Network connectivity issue,False
+INC_ATM_0083_20260112225500,ATM_0083,thermal,fan_failure,2026-01-12 22:55:00,,medium,FLM,1.9885562170309907,Thermal management failure,False
+INC_ATM_0136_20260112230000,ATM_0136,card_reader,read_error,2026-01-12 23:00:00,,medium,FLM,1.5384809823768502,Card reader sensor malfunction,False
+INC_ATM_0153_20260112233000,ATM_0153,dispenser,transport_error,2026-01-12 23:30:00,,medium,SLM,9.38596285404492,Mechanical wear in dispenser,False
